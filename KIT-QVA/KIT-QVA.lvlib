@@ -60,6 +60,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="Mute All Msg.lvclass" Type="LVClass" URL="../../KIT-QVA Messages/Mute All Msg/Mute All Msg.lvclass"/>
 		<Item Name="Mute Single Msg.lvclass" Type="LVClass" URL="../../KIT-QVA Messages/Mute Single Msg/Mute Single Msg.lvclass"/>
 		<Item Name="Quench Msg.lvclass" Type="LVClass" URL="../../KIT-QVA Messages/Quench Msg/Quench Msg.lvclass"/>
+		<Item Name="Read Status Msg.lvclass" Type="LVClass" URL="../../KIT-QVA Messages/Read Status Msg/Read Status Msg.lvclass"/>
 	</Item>
 	<Item Name="KIT-QVA.ini" Type="Document" URL="../KIT-QVA.ini"/>
 	<Item Name="KIT-QVA.lvclass" Type="LVClass" URL="../KIT-QVA.lvclass"/>

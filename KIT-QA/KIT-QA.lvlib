@@ -53,8 +53,10 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
-		<Item Name="Read QD Raw Data Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Read QD Raw Data Msg/Read QD Raw Data Msg.lvclass"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Read QDEvent Logfile Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Read QDEvent Logfile Msg/Read QDEvent Logfile Msg.lvclass"/>
+		<Item Name="Read QD Raw Data Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Read QD Raw Data Msg/Read QD Raw Data Msg.lvclass"/>
+		<Item Name="Read DSC-Traces Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Read DSC-Traces Msg/Read DSC-Traces Msg.lvclass"/>
 		<Item Name="Save to TDMS Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Save to TDMS Msg/Save to TDMS Msg.lvclass"/>
 	</Item>
 	<Item Name="KIT-QA.lvclass" Type="LVClass" URL="../KIT-QA.lvclass"/>

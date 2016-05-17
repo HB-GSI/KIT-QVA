@@ -54,6 +54,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Action" Type="Folder">
+			<Item Name="Integral Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Integral Msg/Integral Msg.lvclass"/>
+		</Item>
 		<Item Name="Read QDEvent Logfile Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Read QDEvent Logfile Msg/Read QDEvent Logfile Msg.lvclass"/>
 		<Item Name="Read QD Raw Data Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Read QD Raw Data Msg/Read QD Raw Data Msg.lvclass"/>
 		<Item Name="Read DSC-Traces Msg.lvclass" Type="LVClass" URL="../../KIT-QA Messages/Read DSC-Traces Msg/Read DSC-Traces Msg.lvclass"/>

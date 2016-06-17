@@ -54,6 +54,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
+		<Item Name="Action" Type="Folder">
+			<Item Name="Force Move LogFiles Msg.lvclass" Type="LVClass" URL="../../KIT-QVA Messages/Force Move LogFiles Msg/Force Move LogFiles Msg.lvclass"/>
+		</Item>
 		<Item Name="Acknowledge Fault Msg.lvclass" Type="LVClass" URL="../../KIT-QVA Messages/Acknowledge Fault Msg/Acknowledge Fault Msg.lvclass"/>
 		<Item Name="Auto Mute Msg.lvclass" Type="LVClass" URL="../../KIT-QVA Messages/Auto Mute Msg/Auto Mute Msg.lvclass"/>
 		<Item Name="Control Mode Msg.lvclass" Type="LVClass" URL="../../KIT-QVA Messages/Control Mode Msg/Control Mode Msg.lvclass"/>
